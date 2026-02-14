@@ -16,11 +16,15 @@ export default defineNuxtConfig({
 					// },
 					// 'remark-tok': {},
 					// 'remark-oembed': {},
-					'remark-math': {}
+					// 'remark-math': {
+					// 	options: {
+					// 		singleDollarTextMath: false,
+					// 	}
+					// }
 				},
 				rehypePlugins: {
 					'rehype-katex': {},
-					'rehype-mathjax': {}
+					// 'rehype-mathjax': {}
 				}
 			}
 		}

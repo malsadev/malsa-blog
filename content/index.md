@@ -32,3 +32,9 @@ equation.
 $$
 L = \frac{1}{2} \rho v^2 S C_L
 $$
+
+
+## Testing fenced code (without remark-math, still need rehype-mathjax and rehype-katex
+```math
+C_L
+```
